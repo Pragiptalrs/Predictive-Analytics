@@ -2,11 +2,11 @@
 
 ## Domain Proyek : Kesehatan
 ![Anemia Image](https://raw.githubusercontent.com/Pragiptalrs/Predictive-Analytics/main/Anemia_Image.jpg)
-Anemia adalah kondisi medis yang umum terjadi di seluruh dunia, terutama pada wanita dan anak-anak, yang ditandai dengan penurunan jumlah sel darah merah atau kadar hemoglobin dalam darah. Menurut data dari Organisasi Kesehatan Dunia (WHO), sekitar 30,7% wanita usia 15–49 tahun mengalami anemia pada tahun 2023, dengan prevalensi yang lebih tinggi di antara wanita hamil. Anemia menyebabkan berkurangnya kemampuan darah untuk mengangkut oksigen ke seluruh tubuh, yang berpotensi menurunkan kualitas hidup dan meningkatkan risiko komplikasi medis seperti penyakit jantung. Selain itu, anemia pada anak-anak di usia 6-59 bulan juga cukup tinggi, yaitu sekitar 39,8% secara global[[1]](https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children). 
+Anemia adalah kondisi medis yang umum terjadi di seluruh dunia, terutama pada wanita dan anak-anak, yang ditandai dengan penurunan jumlah sel darah merah atau kadar hemoglobin dalam darah. Menurut data dari Organisasi Kesehatan Dunia (WHO), sekitar 30,7% wanita usia 15–49 tahun mengalami anemia pada tahun 2023, dengan prevalensi yang lebih tinggi di antara wanita hamil. Anemia menyebabkan berkurangnya kemampuan darah untuk mengangkut oksigen ke seluruh tubuh, yang berpotensi menurunkan kualitas hidup dan meningkatkan risiko komplikasi medis seperti penyakit jantung. Selain itu, anemia pada anak-anak di usia 6-59 bulan juga cukup tinggi, yaitu sekitar 39,8% secara global [[1]](https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children). 
 
-Tradisionalnya, diagnosis anemia dilakukan melalui tes laboratorium yang mengukur kadar hemoglobin dan parameter lainnya. Namun, tes laboratorium tersebut sering kali memerlukan biaya yang tinggi dan waktu yang lama untuk mendapatkan hasil. Oleh karena itu, terdapat kebutuhan untuk metode alternatif yang lebih cepat dan lebih terjangkau. Salah satu solusi yang dapat diterapkan adalah menggunakan machine learning untuk mengklasifikasikan status anemia, yang dapat dilakukan dengan memanfaatkan data medis dasar seperti kadar hemoglobin, MCV (Mean Corpuscular Volume), MCH (Mean Corpuscular Hemoglobin), dan MCHC (Mean Corpuscular Hemoglobin Concentration)[[2]](https://journal3.uin-alauddin.ac.id/index.php/msa/article/download/45083/19169/).
+Tradisionalnya, diagnosis anemia dilakukan melalui tes laboratorium yang mengukur kadar hemoglobin dan parameter lainnya. Namun, tes laboratorium tersebut sering kali memerlukan biaya yang tinggi dan waktu yang lama untuk mendapatkan hasil. Oleh karena itu, terdapat kebutuhan untuk metode alternatif yang lebih cepat dan lebih terjangkau. Salah satu solusi yang dapat diterapkan adalah menggunakan machine learning untuk mengklasifikasikan status anemia, yang dapat dilakukan dengan memanfaatkan data medis dasar seperti kadar hemoglobin, MCV (Mean Corpuscular Volume), MCH (Mean Corpuscular Hemoglobin), dan MCHC (Mean Corpuscular Hemoglobin Concentration) [[2]](https://journal3.uin-alauddin.ac.id/index.php/msa/article/download/45083/19169/).
 
-Dengan menggunakan algoritma klasifikasi machine learning, kita dapat membangun model yang dapat memprediksi status anemia dengan menggunakan data yang lebih sederhana, cepat, dan biaya lebih rendah. Beberapa algoritma machine learning telah terbukti efektif dalam memprediksi anemia menggunakan data medis yang tersedia. Ini tidak hanya mempercepat proses diagnosis, tetapi juga dapat membantu mengidentifikasi individu yang membutuhkan perhatian medis lebih cepat, dengan tujuan memberikan pengobatan yang lebih segera untuk mencegah komplikasi lebih lanjut[[3]](https://journal.uniku.ac.id/index.php/JESMath/article/view/11694/4941).
+Dengan menggunakan algoritma klasifikasi machine learning, kita dapat membangun model yang dapat memprediksi status anemia dengan menggunakan data yang lebih sederhana, cepat, dan biaya lebih rendah. Beberapa algoritma machine learning telah terbukti efektif dalam memprediksi anemia menggunakan data medis yang tersedia. Ini tidak hanya mempercepat proses diagnosis, tetapi juga dapat membantu mengidentifikasi individu yang membutuhkan perhatian medis lebih cepat, dengan tujuan memberikan pengobatan yang lebih segera untuk mencegah komplikasi lebih lanjut [[3]](https://journal.uniku.ac.id/index.php/JESMath/article/view/11694/4941).
 
 ## Business Understanding
 
@@ -345,7 +345,7 @@ knn = KNeighborsClassifier().fit(X_train_scaled, y_train_resampled)
 
 - Pemilihan Hyperplane: Menentukan garis atau hyperplane terbaik untuk memisahkan kelas yang berbeda.
 - Maximizing Margin: Memaksimalkan margin antara hyperplane dan data dari kelas yang berbeda.
-- Prediksi: Menggunakan hyperplane untuk memprediksi kelas data baru. [[8]](https://scikit-learn.org/stable/modules/svm.html).
+- Prediksi: Menggunakan hyperplane untuk memprediksi kelas data baru [[8]](https://scikit-learn.org/stable/modules/svm.html).
 
   
 **Parameter yang Digunakan:**
@@ -552,12 +552,12 @@ Dari analisis yang dilakukan, kadar Hemoglobin terbukti menjadi fitur yang palin
 
 [[3] Zam, N. W., Irwan, I., & Irwan, M., "Klasifikasi Machine Learning untuk Anemia Menggunakan Metode Support Vector Machine dan Random Forest," Jurnal Edukasi dan Sains Matematika (JES-MAT), vol. 11, no. 1, pp. 62-76, Mar. 2025.](https://journal.uniku.ac.id/index.php/JESMath/article/view/11694/4941)
 
-[[4]Scikit-learn documentation. "Decision Trees," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/tree.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/tree.html)
+[[4] Scikit-learn documentation. "Decision Trees," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/tree.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/tree.html)
 
-[[5]Scikit-learn documentation. "Random Forest," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/ensemble.html#random-forest. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/ensemble.html#random-forest)
+[[5] Scikit-learn documentation. "Random Forest," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/ensemble.html#random-forest. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/ensemble.html#random-forest)
 
-[[6]Scikit-learn documentation. "LogisticRegression," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+[[6] Scikit-learn documentation. "LogisticRegression," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
-[[7]Scikit-learn documentation. "KNeighborsClassifier," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+[[7] Scikit-learn documentation. "KNeighborsClassifier," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 
-[[8]Scikit-learn documentation. "SupportVectorMachine," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/svm.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/svm.html)
+[[8] Scikit-learn documentation. "SupportVectorMachine," Scikit-learn, 2021. [Online]. Available: https://scikit-learn.org/stable/modules/svm.html. [Accessed: 16-May-2025].](https://scikit-learn.org/stable/modules/svm.html)
